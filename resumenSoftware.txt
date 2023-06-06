@@ -1,0 +1,4 @@
+Listar 3 ejemplos de software
+	- VisualStudio Code
+	- Steam
+	- Photoshop

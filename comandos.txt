@@ -1,0 +1,35 @@
+  605  cd ..
+  606  clear
+  607  mkdir 20230605-DanielMera
+  608  ls 20230605-DanielMera/
+  609  cd 20230605-DanielMera/
+  610  git init
+  611  git branch -M main
+  612  git remote add origin https://github.com/dan3232/20230605-DanielMera.git
+  613  git push -u origin main
+  614  touch comandos.txt main.js index.html
+  615  ls
+  616  git add .
+  617  git commit -m "commit 01 de DanielMera"
+  618  git push -u origin main
+  619  git branch feature
+  620  git checkout feature
+  621  mkdir Hardware Software SeguridadInformatica
+  622  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  623  git add .
+  624  git commit -m "commit 02 de DanielMera"
+  625  git push -u origin feature
+  626  git checkout main
+  627  ls -R
+  628  mv main.js resumenHardware.txt
+  629  ls
+  630  mv index.html resumenSoftware.txt
+  631  ls
+  632  nano
+  633  nano resumenHardware.txt
+  634  cat resumenHardware.txt
+  635  nano resumenSoftware.txt
+  636  cat resumenSoftware.txt
+  637  nano comandos.txt
+  638  nano comandos.txt
+  639  history
